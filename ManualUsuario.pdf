@@ -1,0 +1,74 @@
+Manual de Usuario - Bot Financiero
+
+1. Introducción
+	Bienvenido al Bot Financiero. Este bot está diseñado para ofrecerte una experiencia de cambio de divisas eficiente a través de Telegram, utilizando las tasas de cambio 	proporcionadas por la API de Frankfurter. Con este bot, podrás consultar tasas de cambio, realizar transacciones cambiarias, ordenar monedas y obtener información detallada sobre 	variaciones temporales en el valor de las monedas.
+
+2. Requisitos previos
+    Antes de comenzar a utilizar el bot, asegúrate de tener:
+
+	Cuenta de Telegram: El bot se comunica a través de la aplicación Telegram. Si aún no tienes una cuenta, descárgala e instálala en tu dispositivo.
+	Acceso al Bot: Puedes buscar el bot en Telegram utilizando su nombre(@ElBotMarcelinhobot) o acceder a través de un enlace proporcionado por el administrador del bot.
+
+3. Cómo iniciar el bot
+	Abre Telegram en tu dispositivo.
+	Busca el bot utilizando el nombre o el enlace proporcionado.
+	Inicia una conversación con el bot haciendo clic en el botón Start.
+	El bot responderá con un mensaje de bienvenida y un menú interactivo con diversas opciones.
+
+4. Menú Principal
+	Al iniciar el bot, se te presentará un menú con las siguientes opciones:
+
+	Operaciones con el árbol binario: Accede a la visualización de las monedas almacenadas en el árbol binario en tres órdenes diferentes: preorden, inorden y postorden.
+	Ordenación de monedas: Permite ordenar las monedas utilizando uno de los algoritmos de ordenación disponibles: Selection Sort, Insert Sort, Bubble Sort, Merge Sort, o Quick Sort.
+	Buscar Moneda: Busca una moneda por su nombre o símbolo.
+	Realizar Transacción: Realiza una transacción cambiaria entre dos monedas.
+	Ver Ganancias: Visualiza las ganancias obtenidas a través de las transacciones realizadas.
+	Análisis de variación temporal: Consulta la variación temporal de una moneda respecto al dólar en un rango de fechas.
+
+5. Submenú de Órdenes de Visualización
+	Al seleccionar la opción "Operaciones con el árbol binario", el bot te ofrecerá tres opciones:
+
+	Preorden: Muestra las monedas en un recorrido de preorden.
+	Inorden: Muestra las monedas en un recorrido de inorden.
+	Postorden: Muestra las monedas en un recorrido de postorden.
+	El bot te enviará un listado con los nombres de las monedas y sus respectivas tasas de cambio.
+
+6. Submenú de Algoritmos de Ordenación
+	Al elegir "Ordenación de monedas", podrás seleccionar entre los siguientes algoritmos de ordenación:
+
+	Selection Sort: Ordena las monedas utilizando el algoritmo de selección.
+	Insert Sort: Ordena las monedas utilizando el algoritmo de inserción.
+	Bubble Sort: Ordena las monedas utilizando el algoritmo de burbuja.
+	Merge Sort: Ordena las monedas utilizando el algoritmo de mezcla.
+	Quick Sort: Ordena las monedas utilizando el algoritmo rápido.
+	El bot te enviará un mensaje confirmando que las monedas han sido ordenadas según el algoritmo seleccionado.
+
+7. Buscar Moneda
+    Al seleccionar la opción "Buscar Moneda", el bot te pedirá que ingreses el nombre o símbolo de la moneda que deseas buscar (por ejemplo, EUR para el euro o GBP para la libra). El bot buscará la moneda en el árbol binario y te mostrará su tasa de cambio respecto al dólar.
+
+8. Realizar Transacción
+    Para realizar una transacción cambiaria:
+
+	Elige la opción Realizar Transacción en el menú principal.
+	El bot te pedirá que ingreses la moneda de origen (por ejemplo, EUR).
+	Luego, te pedirá que ingreses la moneda de destino (por ejemplo, USD).
+	A continuación, deberás ingresar el monto de la moneda de origen que deseas cambiar.
+	El bot calculará el monto que recibirías en la moneda de destino, teniendo en cuenta una comisión del 2% sobre la moneda de origen, y te pedirá que confirmes la transacción.
+	Si confirmas, el bot procesará la transacción y la almacenará en un registro.
+
+9. Ver Ganancias
+	Para ver las ganancias generadas por las transacciones realizadas, selecciona la opción Ver Ganancias en el menú principal. El bot recorrerá todas las transacciones realizadas, 	convirtiendo las monedas de origen a dólares, y te mostrará el total de ganancias en USD.
+
+10. Variación Temporal
+    Al elegir la opción Variación Temporal, el bot te pedirá ingresar dos fechas (inicio y fin) y la moneda de referencia. Si la moneda de referencia es el dólar, te pedirá que elijas otra moneda sobre la cual hacer la comparación. El bot calculará y mostrará la variación porcentual del valor de la moneda en el rango de fechas especificado.
+
+11. Mensajes de Error
+    Si en algún momento ingresas datos incorrectos, como una fecha en formato inválido o una moneda que no existe, el bot te mostrará un mensaje de error indicando el problema. Asegúrate de seguir las instrucciones para evitar errores.
+
+12. Cierre de la sesión
+    Para finalizar la interacción con el bot, simplemente puedes dejar de escribir o cerrar la conversación en Telegram. Si deseas reiniciar la conversación, puedes escribir "/start" o "/menu" nuevamente.
+
+13. Preguntas Frecuentes
+    ¿Cómo puedo saber si mi transacción fue exitosa? A: El bot te confirmará que la transacción ha sido realizada exitosamente. Si no recibes un mensaje de confirmación, verifica los datos ingresados.
+
+    ¿Qué sucede si ingreso una moneda que no existe? A: El bot te informará que la moneda ingresada no es válida y te pedirá que intentes de nuevo.
