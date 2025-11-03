@@ -152,4 +152,5 @@ Rodrigo Correa
 
 Correo Electronico: rodrigocorreamuse@gmail.com
 
-Mi perfil en LinkedIn[LinkedIn] https://www.linkedin.com/in/rodrigo-correa-b868b1368/
+Mi perfil en LinkedIn: https://www.linkedin.com/in/rodrigo-correa-b868b1368/
+
