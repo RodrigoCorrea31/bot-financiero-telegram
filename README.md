@@ -146,3 +146,10 @@ El bot te enviará un mensaje confirmando la operación.
 
 ¿Puedo reiniciar la sesión?
 Sí, escribiendo /start o /menu.
+
+## Autor
+Rodrigo Correa
+
+Correo Electronico: rodrigocorreamuse@gmail.com
+
+Mi perfil en LinkedIn[LinkedIn] https://www.linkedin.com/in/rodrigo-correa-b868b1368/
